@@ -109,7 +109,7 @@ func (ch *Character) ControlDevice(deviceType string, action string) {
 	ch.mediator.SendCommand(ch.name, deviceType, action)
 }
 
-// main function demonstrates the usage of the BazingaSmartHomeController mediator pattern.
+// main function demonstrates the usage of the BazingaSmartHomeController mediator.
 // It creates various smart home devices and registers them with the mediator.
 // Then, it creates several characters who control these devices through the mediator.
 // Each character issues a command to a specific device, showcasing the interaction
